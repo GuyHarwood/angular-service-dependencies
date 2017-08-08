@@ -1,4 +1,18 @@
-# Servicedeps
+# Service dependency issue with Angular 4.x
+
+Skeleton project to reproduce the service dependency issue that i have.
+
+## Scenario
+ContactService depends on SkillsService.
+When running `ng test` it outputs the following...
+
+```Error: No provider for SkillsService!```
+
+How do i configure it so that i have a SkillsService provider?
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.3.
 
